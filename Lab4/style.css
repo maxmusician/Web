@@ -1,0 +1,436 @@
+
+@font-face {
+    font-family: 'Spooky';
+    src: url(fonts/19440.ttf);
+}
+
+@font-face {
+    font-family: 'Smash';
+    src: url(fonts/v_CCSmash_v2.2.ttf);
+}
+
+@font-face {
+    font-family: 'Angry';
+    src: url(fonts/19458.ttf);
+}
+
+.container1 {
+    max-width: 1440px;
+    width: 100%;
+    height: 83px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 1440px;
+    width: 100%;
+    height: 648px;
+    margin: 0 auto;
+}
+
+.container3 {
+    max-width: 1440px;
+    width: 100%;
+    height: 736px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    margin: 0;
+}
+
+.header__inner {
+    padding: 29px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__left {
+    font-weight: 700;
+    margin-left: 102px;
+    text-transform: uppercase;
+}
+
+.nav {
+    margin-right: 124px;
+    display: flex;
+}
+
+.nav__link {
+    margin-left: 62px;
+    color: #000;
+
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.spooky {
+    background-color: #040410;
+}
+
+.spooky__left {
+    width: 50%;
+}
+
+.spookimg1 {
+    position: absolute;
+    left: 0;
+    width: 645px;
+    height: 648px;
+}
+
+.spookimg2 {
+    position: absolute;
+    right: 0;
+    margin-top: 21px;
+}
+
+.spooky__right {
+    width: 50%;
+    color: #fff;
+}
+
+.spooky__title {
+    font-family: 'Spooky', sans-serif;
+    position: absolute;
+    left: 852px;
+    top: 246px;
+
+    font-size: 40px;
+}
+
+.spooky__text1 {
+    font-family: 'Syne Mono', sans-serif;
+    position: absolute;
+    width: 403px;
+    height: 116px;
+    left: 852px;
+    top: 340px;
+
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.spooky__text2 {
+    font-family: 'Syne Mono', sans-serif;
+    position: absolute;
+    width: 403px;
+    height: 87px;
+    left: 852px;
+    top: 481px;
+
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.funny {
+    font-family: 'Lilita One', sans-serif;
+    height: 736px;
+}
+
+.funny__title {
+    font-family: 'Smash', sans-serif;
+    position: absolute;
+    width: 563px;
+    height: 65px;
+    left: 485px;
+    top: 886px;
+
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.funny__text {
+    position: absolute;
+    width: 545px;
+    height: 87px;
+    left: 462px;
+    top: 986px;
+
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+
+    color: #000000;
+}
+
+.funnyimg1 {
+    position: absolute;
+    width: 458px;
+    height: 292px;
+    left: 880px;
+    top: 1174px;
+}
+
+.funnyimg2 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    left: 523px;
+    top: 1174px;
+}
+
+.funnyimg3 {
+    position: absolute;
+    width: 458px;
+    height: 292px;
+    left: 0px;
+    top: 1174px;
+}
+
+.angry {
+    height: 648px;
+    background-color: #AD4220;
+    color: #fff;
+    font-family: 'Mitr', sans-serif;
+}
+
+.angry__title {
+    font-family: 'Angry', sans-serif;
+    position: absolute;
+    width: 368px;
+    height: 59px;
+    left: 125px;
+    top: 1630px;
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.angry__text1 {
+    position: absolute;
+    width: 403px;
+    height: 116px;
+    left: 125px;
+    top: 1724px;
+
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.angry__text2 {
+    position: absolute;
+    width: 403px;
+    height: 87px;
+    left: 125px;
+    top: 1865px;
+
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.angryimg1 {
+    position: absolute;
+    left: 853px;
+    top: 1612px;
+}
+
+.angryimg2 {
+    position: absolute;
+    width: 281.95px;
+    height: 324.83px;
+    left: 534px;
+
+    transform: rotate(-28.86deg);
+}
+
+.angryimg3 {
+    position: absolute;
+    width: 341.23px;
+    height: 393.13px;
+    left: 1289px;
+
+    transform: rotate(-126.5deg);
+}
+
+.romantic {
+    font-family: 'Ubuntu', sans-serif;
+    height: 648px;
+    color: #484848;
+}
+
+.plant1 {
+    position: absolute;
+    width: 183.59px;
+    height: 321.19px;
+    right: -27px;
+    top: 2055px;
+
+    transform: rotate(-138.24deg);
+}
+
+.plant2 {
+    position: absolute;
+    width: 169.35px;
+    height: 296.54px;
+    left: -83px;
+    top: 2485px;
+
+    transform: rotate(-6.59deg);
+}
+
+.romantic__title {
+    font-family: 'Yeseva One', sans-serif;
+    position: absolute;
+    height: 41px;
+    left: 125px;
+    top: 2296px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 160%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.romantic__text1 {
+    position: absolute;
+    width: 425px;
+    height: 78px;
+    left: 125px;
+    top: 2372px;
+
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.romantic__text2 {
+    position: absolute;
+    width: 425px;
+    height: 78px;
+    left: 125px;
+    top: 2477px;
+
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.romanticimg1 {
+    position: absolute;
+    width: 249px;
+    height: 300px;
+    left: 698px;
+    top: 2255px;
+}
+
+.romanticimg2 {
+    position: absolute;
+    width: 247px;
+    height: 300px;
+    left: 1010px;
+    top: 2322px;
+}
+
+.business {
+    font-family: 'Roboto Slab', sans-serif;
+    height: 648px;
+    background-color: #44484A;
+    color: #fff;
+}
+
+.business__title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 320px;
+    height: 41px;
+    left: 698px;
+    top: 2923px;
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+}
+
+.business__text1 {
+    position: absolute;
+    width: 269px;
+    height: 130px;
+    left: 698px;
+    top: 3024px;
+
+    line-height: 160%;
+}
+
+.business__text2 {
+    position: absolute;
+    width: 269px;
+    height: 130px;
+    left: 999px;
+    top: 3024px;
+
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.business__quote {
+    position: absolute;
+    width: 492px;
+    height: 52px;
+    left: 748px;
+    top: 3198px;
+
+    font-style: italic;
+    line-height: 160%;
+}
+
+.quote {
+    position: absolute;
+    width: 30px;
+    height: 66px;
+    left: 698px;
+    top: 3160px;
+
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 160%;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.businessimg1 {
+    position: absolute;
+    width: 588px;
+    height: 648px;
+    left: 0;
+    top: 2763px;
+}
+
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 83px;
+}
+
+.footer__inner {
+    padding: 33px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 629px;
+
+    position: absolute;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #4D4D4D;
+}
